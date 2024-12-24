@@ -1,4 +1,10 @@
-export default function Link({ href, description , Icon}) {
+type LinkProps = {
+    href: string;
+    description: string;
+    Icon?: React.ComponentType<{ size: number }>;
+}
+
+export default function Link({ href , description , Icon} : LinkProps ) {
     return (
         <div  className="flex items-center bg-gray-500 pl-2 mb-2 rounded-xl"  >
             <a 
