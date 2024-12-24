@@ -33,7 +33,7 @@ export default function Card() {
             <div className='flex flex-col mt-7 ml-5 justify-start '>
                 <Image
                     className ="w-40 h-40 shadow-md border-4 rounded-lg border-blue-400 bg-gray-600"
-                    src="/images/profile2.jpg" // Replace with the correct path to your image in the `public` folder
+                    src="/images/profile5.jpeg" // Replace with the correct path to your image in the `public` folder
                     alt = "Site logo"
                     width={150}
                     height={200}
