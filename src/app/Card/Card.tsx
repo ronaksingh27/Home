@@ -29,7 +29,7 @@ export default function Card() {
     }
 
     return (
-        <div className='flex justify-around w-1/2 h-[70vh] bg-gray-600 rounded-lg overflow-auto flex-wrap'>
+        <div className='flex justify-around w-3/4 md:w-1/2 h-[70vh] bg-gray-600 rounded-lg overflow-auto flex-wrap'>
             <div className='flex flex-col mt-7 ml-5 justify-start '>
                 <Image
                     className ="w-40 h-40 shadow-md border-4 rounded-lg border-blue-400 bg-gray-600"
@@ -71,17 +71,17 @@ export default function Card() {
             </div>
 
             {/* Bio Section */}
-            <div className='mt-7 mr-5'>
-                <div id = 'list' className='bg-gray-400 '>
-                    <ul className='flex '>
+            <div className='mt-7 mr-5 '>
+                <div id = 'list' className='bg-gray-500 '>
+                    <ul className='flex  '>
                     <li
-                    className={`px-2 cursor-pointer ${activePage === 'homepage' ? 'text-gray-400 bg-gray-500' : 'bg-gray-500'}  mx-1 `}
+                    className={`px-2 cursor-pointer ${activePage === 'homepage' ? 'text-gray-400 bg-yellow-500' : ' bg-yellow-500'}  mx-1 `}
                     onClick={handleHomeClick}
                     >
                     <FaHome size={30} />
                     </li>
                     <li 
-                    className={`px-2 cursor-pointer ${activePage === 'Portfolio' ? 'text-gray-400  bg-gray-500' : ' bg-yellow-500'} mx-1 `}
+                    className={`px-2 cursor-pointer ${activePage === 'Portfolio' ? 'text-gray-400  bg-yellow-500' :  'bg-gray-500'} mx-1 `}
                     onClick={handlePortfolioClick}
                     ><FaSuitcase size={30}/></li>
                     <li>Profile</li>

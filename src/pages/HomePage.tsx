@@ -12,7 +12,7 @@ const resume_link = "https://drive.google.com/file/d/1RkQ__--VLFiIRi6puqFND_UTH-
 export default function HomePage() {
     return (
         
-        <div className=" flex flex-wrap w-full ">
+        <div className=" flex flex-wrap w-full justify-center ">
             <div className="pl-1 bg-gray-400 ">
                 <div className=" bg-gray-500 pl-2 h-full ">
                     <p>Heyy Everyone !! Its ..</p>
