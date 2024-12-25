@@ -1,8 +1,9 @@
 import Link from "@/components/link";
 import { IoDocumentAttach } from "react-icons/io5";
 import { SiPoetry } from "react-icons/si";
-import { LuListTodo ,LuPresentation} from "react-icons/lu";
+import { LuPresentation} from "react-icons/lu";
 import { FaFolder } from "react-icons/fa";
+import { FaMedium } from "react-icons/fa6";
 
 
 
@@ -36,7 +37,7 @@ export default function HomePage() {
                     </div>
 
                     <div className="">
-                        <Link href = "example.com" description="To-do" Icon={LuListTodo}/>
+                        <Link href = "https://medium.com/me/stories/public" description="Blogs" Icon={FaMedium}/>
                     </div>
 
                     <div className="">

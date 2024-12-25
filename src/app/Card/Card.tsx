@@ -29,7 +29,7 @@ export default function Card() {
     }
 
     return (
-        <div className='flex justify-around w-3/4 md:w-1/2 h-[70vh] bg-gray-600 rounded-lg overflow-auto flex-wrap'>
+        <div className='flex justify-around w-3/4 md:w-1/2 h-[70vh] bg-gray-600 rounded-lg overflow-auto flex-wrap drop-shadow-md '>
             <div className='flex flex-col mt-7 ml-5 justify-start '>
                 <Image
                     className ="w-40 h-40 shadow-md border-4 rounded-lg border-blue-400 bg-gray-600"
