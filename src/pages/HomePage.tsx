@@ -1,8 +1,7 @@
 import Link from "@/components/link";
 import { IoDocumentAttach } from "react-icons/io5";
-import { SiPoetry } from "react-icons/si";
 import { LuPresentation} from "react-icons/lu";
-import { FaFolder } from "react-icons/fa";
+import { FaFolder ,FaCameraRetro } from "react-icons/fa";
 import { FaMedium } from "react-icons/fa6";
 
 
@@ -33,7 +32,7 @@ export default function HomePage() {
                     <div/>
 
                     <div className="">
-                        <Link href = "example.com" description="Poetry" Icon={SiPoetry}/>
+                        <Link href = "https://500px.com/photo/1106187294/ooty-by-ronak-singh.com" description="Photos" Icon={FaCameraRetro}/>
                     </div>
 
                     <div className="">
