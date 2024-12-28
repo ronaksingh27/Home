@@ -6,7 +6,7 @@ import { FaMedium } from "react-icons/fa6";
 
 
 
-const resume_link = "https://drive.google.com/file/d/1RkQ__--VLFiIRi6puqFND_UTH-cw75D3/view?usp=drive_link";
+const resume_link = "https://drive.google.com/file/d/1QBJ_p9yKadf_8X1Ido7GFPEVjoPQLYnj/view?usp=sharing";
 
 
 export default function HomePage() {
